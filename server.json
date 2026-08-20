@@ -1,0 +1,17 @@
+{
+  "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
+  "name": "io.github.mcp-dir/pref_ms_navirai_cnd-mcp",
+  "title": "Prefeitura MS Naviraí: Certidão Negativa de Débitos",
+  "description": "Prefeitura MS Naviraí: Clearance Certificate (Debts), official-source lookup. Platform-hosted, pay p",
+  "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/mcp-dir/pref_ms_navirai_cnd-mcp",
+    "source": "github"
+  },
+  "remotes": [
+    {
+      "type": "streamable-http",
+      "url": "https://api.mcp.ai/p_pref_ms_navirai_cnd"
+    }
+  ]
+}
